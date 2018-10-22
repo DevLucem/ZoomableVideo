@@ -1,4 +1,4 @@
-package com.lucem.lib;
+package com.lucemanb.zoomable;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,10 @@ import android.view.ScaleGestureDetector;
 import android.view.TextureView;
 import android.view.View;
 
+import com.lucemanb.zoomablevideo.R;
+
 public class ZoomableTextureView extends TextureView {
+
     private static final String SUPERSTATE_KEY = "superState";
     private static final String MIN_SCALE_KEY = "minScale";
     private static final String MAX_SCALE_KEY = "maxScale";

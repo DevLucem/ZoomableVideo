@@ -1,4 +1,4 @@
-package com.lucem.lib;
+package com.lucemanb.zoomablevideo;
 
 import org.junit.Test;
 
