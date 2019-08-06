@@ -84,8 +84,8 @@ public class ZoomableTextureView extends TextureView {
     public void onRestoreInstanceState(Parcelable state) {
         if (state instanceof Bundle) {
             Bundle bundle = (Bundle) state;
-            this.minScale = bundle.getInt(MIN_SCALE_KEY);
-            this.maxScale = bundle.getInt(MAX_SCALE_KEY);
+            this.minScale = bundle.getFloat(MIN_SCALE_KEY);
+            this.maxScale = bundle.getFloat(MAX_SCALE_KEY);
             state = bundle.getParcelable(SUPERSTATE_KEY);
         }
         super.onRestoreInstanceState(state);
